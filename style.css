@@ -1,6 +1,6 @@
 
 body{
-    background-color:#0000CD;
+    background-color:#0707ee;
     color: white;
 }
 ::-webkit-scrollbar{
@@ -19,12 +19,20 @@ body{
     top: 0;
     z-index: 1;
     background-color: #FAF3DD;
+    border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+       height: 45px;
+       box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #myname{
   text-decoration: none;
   color: rgb(37, 37, 37);
   font-size: 25px;
   font-weight: bold;
+
 }
 .nav-item{
     padding-right:20px;
@@ -36,7 +44,10 @@ body{
     padding: 8px;
 }
 .nav-item .nav-link:hover{
-   background-color: blue;
+   color: rgb(255, 145, 0);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .navbar-toggler{
     color: gray;
@@ -58,6 +69,13 @@ body{
 .introheading2{
     font-size:45px;
     margin-bottom: 3%;
+    color: brown;
+    text-shadow: -1px 5px 0px rgba(0,0,0,0.56);
+}
+.introheading2:hover{
+    font-size:45px;
+    margin-bottom: 3%;
+    color: chartreuse;
 }
 .introheading3{
     font-size:20px;
@@ -138,6 +156,9 @@ body{
     font-size: 60px;
     margin-top: 12%;
     margin-bottom: 5%;
+    font-weight:bold;
+    color: #640D5F;
+    text-shadow: -1px 5px 0px rgba(0,0,0,0.56);
 }
 .cardsparent{
     display: flex;
@@ -178,6 +199,9 @@ body{
     font-size: 60px;
     margin-top: 12%;
     margin-bottom: 3%;
+    font-weight: bold;
+    color: #640D5F;
+    text-shadow: -1px 5px 0px rgba(0,0,0,0.56);
  }
  .skillsBackground{
      border: 2px solid white;
@@ -246,6 +270,10 @@ body{
     font-size: 60px;
     margin-top: 12%;
     margin-bottom: 5%;
+    color: #640D5F;
+    font-weight: bold;
+
+    text-shadow: -1px 5px 0px rgba(0,0,0,0.56);
 }
 .PROJECTCARDS .card .btn{
     border: 2px solid blue;
@@ -300,6 +328,10 @@ body{
     font-size: 60px;
     margin-top: 12%;
     margin-bottom: 5%;
+    color: #640D5F;
+    font-weight: bold;
+
+    text-shadow: -1px 5px 0px rgba(0,0,0,0.56);
 }
 .inputdiv input{
     width: 65%;
