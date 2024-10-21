@@ -18,6 +18,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
+    
     background-color: #FAF3DD;
     border-radius: 28px 28px 28px 28px;
     -webkit-border-radius: 28px 28px 28px 28px;
@@ -91,7 +92,7 @@ body{
 }
 .icons{
     border: 2px solid white;
-    background-color: blue;
+    background-color: black;
     width: 50px;
     height: 50px;
     font-size: 23px;
@@ -106,16 +107,16 @@ body{
     color: white;
 }
 .icons:hover{
-    box-shadow: blue 0px 1px 38px, blue 0px 1px 12px;
+    box-shadow: rgb(20, 1, 37) 0px 1px 38px, blue 0px 1px 12px;
     transition: all 0.5s;
     background:transparent;
 }
 .introbtn{
-    background-color: blue;
-    color: white;
+    background-color: rgb(2, 177, 124);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 7px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     font-weight: bold;
     margin-top: 6%;
@@ -124,10 +125,12 @@ body{
     transition: all 0.5s;
 }
 .introbtn:hover{
-    background-color: white;
-    color: blue;
+    background-color: rgb(0, 3, 2);
+    color: rgb(255, 255, 255);
     transition: all 0.5s;
-    box-shadow: blue 0px 1px 38px, blue 0px 1px 12px;
+    box-shadow: rgb(59, 1, 50) 0px 1px 38px, blue 0px 1px 12px;
+    border: 2px solid rgb(255, 253, 253);
+
 }
  .mypicParent{
     width: 35%;
