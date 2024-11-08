@@ -203,12 +203,15 @@ body {
     width: 355px !important;
     height: 390px;
     transition: all 0.5s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .card:hover {
     border: 3px solid blue;
     box-shadow: blue 0px 0px 27px, blue 0px 0px 12px;
-    color: blue;
+    
     transition: all 0.5s;
 }
 
@@ -218,7 +221,19 @@ body {
     font-size: 23px;
     margin-bottom: 6%;
 }
-
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover .card-title {
+    color: #007bff;
+  }
+  
+  .card:hover img {
+    opacity: 0.9;
+    filter: brightness(110%);
+  }
 .card img {
     width: 100%;
     height: 200px;
