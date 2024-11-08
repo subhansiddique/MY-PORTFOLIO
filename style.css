@@ -262,7 +262,44 @@ body {
     padding: 40px;
     margin: 0 auto;
 }
-
+.container {
+    padding: 30px;
+    background: linear-gradient(135deg, #001f3f, #3d0066); /* Dark blue to dark purple */
+    border-radius: 15px;
+  }
+  
+  .skills-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Add space between images */
+    flex-wrap: wrap;
+  }
+  
+  .skill-icon {
+    width: 90px;
+    height: auto;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.2);
+    filter: brightness(1.3) drop-shadow(0 6px 15px rgba(0, 255, 255, 0.5));
+  }
+  
+  .skill-icon:active {
+    transform: scale(1.1); /* Slight scaling on click */
+  }
+  
+  .container {
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  
+/* 
 .logorow1 {
     display: flex;
     justify-content: center;
@@ -277,9 +314,9 @@ body {
     border: 3px solid blue;
 
     transition: all 0.5s;
-}
+} */
 
-.logorow1 img:hover {
+/* .logorow1 img:hover {
     filter: grayscale(0%);
     transition: all 0.5s;
 }
@@ -353,7 +390,7 @@ body {
 .tailwind:hover {
     box-shadow: black 0px 1px 38px, rgb(0, 0, 0) 0px 1px 12px;
     border: 2px solid rgb(20, 1, 49);
-}
+} */
 
 /* Skills Section End */
 
