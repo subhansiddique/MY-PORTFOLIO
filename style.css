@@ -1,5 +1,5 @@
 body {
-    background-color: #0707ee;
+    /* background-color: #0707ee; */
     color: white;
 }
 
@@ -21,7 +21,7 @@ body {
     top: 0;
     z-index: 1;
 
-    background-color: #FAF3DD;
+    /* background-color: #FAF3DD; */
     border-radius: 28px 28px 28px 28px;
     -webkit-border-radius: 28px 28px 28px 28px;
     -moz-border-radius: 28px 28px 28px 28px;
@@ -264,7 +264,8 @@ body {
 }
 .container {
     padding: 30px;
-    background: linear-gradient(135deg, #001f3f, #3d0066); /* Dark blue to dark purple */
+    background: linear-gradient(135deg, #001f3f, #3d0066);
+     /* Dark blue to dark purple */
     border-radius: 15px;
   }
   
@@ -430,7 +431,7 @@ body {
 
 .PROJECTCARDS .card-text {
     font-weight: 500;
-    height: 8vh;
+    height: 9vh;
     overflow: scroll;
 }
 
@@ -446,6 +447,8 @@ body {
 
 .projectcardsrow1 .card {
     text-align: center;
+    height: auto;
+    
 }
 
 .projectcardsrow2 {
@@ -457,6 +460,8 @@ body {
 
 .projectcardsrow2 .card {
     text-align: center;
+    height: auto;
+
 }
 
 /* Projects Section End */
@@ -567,7 +572,7 @@ body {
 /* bottom arrow */
 #arrow {
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     border: 2px solid white;
     position: fixed;
     right: 2%;
